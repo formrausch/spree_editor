@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'ckeditor',      '4.0.6'
-  s.add_dependency 'spree_backend', '~> 2.4.0.beta'
+  s.add_dependency 'ckeditor',      '4.1.0'
+  s.add_dependency 'spree_backend', '>= 2.3.0'
   s.add_dependency 'tinymce-rails', '~> 4.0.16'
 
   s.add_development_dependency 'rspec'
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'database_cleaner', '~> 1.2.0'
   s.add_development_dependency 'factory_girl', '~> 4.4.0'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'sass-rails', '~> 4.0.0'
+  s.add_development_dependency 'sass-rails', '~> 4.0.2'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'poltergeist', '~> 1.5.0'
   s.add_development_dependency 'simplecov', '~> 0.7.1'
